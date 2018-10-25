@@ -3,7 +3,7 @@
 Using this agianst servers you dont control, is illegal in most countries.
 The author claims no responsibility for the actions of those who use this software for illegal purposes.
 This software is intended for educational use only.
-No servers were illegally pwned in the macking of this software.
+No servers were illegally pwned in the making of this software.
 
 **JQShell** A weaponized version of CVE-2018-9206.
 
