@@ -1,11 +1,13 @@
-**Disclaimer**Using this agianst servers you dont control, is illegal in most countries.
+**Disclaimer**
+Using this agianst servers you dont control, is illegal in most countries.
 The author claims no responsibility for the actions of those who use this software for illegal purposes.
 This software is intended for educational use only.
-No servers were illegally pwned in the macking of this software
+No servers were illegally pwned in the macking of this software.
 
 **JQShell** A weaponized version of CVE-2018-9206.
 
 **Features**
+
 Single Target
 Multi Target
 Tor
@@ -15,10 +17,12 @@ Tor
 Please install these required packages.
 
 **Python3**
-```
+
+```shell
 pip3 install requests pysocks subprocess stem
 ```
 **Tor Control Port**
+
 To use tor, in this script, you must edit your torrc file and enable tor control port on 9051.
 
 Typically this file is here: /etc/tor/torrc
@@ -64,6 +68,7 @@ Running agianst single target, with saving output.
 python3 jqshell.py -t localhost/folderwerejqueryis -s /var/www/html/shell.php -o /pwned.txt
 ```
 Running a list, with saving output.
+```shell
 python3 jqshell.py -l /opt/jquery/test.txt -s /var/www/html/shell.php -o /pwned.txt
 ```
 **Author**
