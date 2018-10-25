@@ -5,7 +5,9 @@ The author claims no responsibility for the actions of those who use this softwa
 This software is intended for educational use only.
 No servers were illegally pwned in the making of this software.
 
-**JQShell** A weaponized version of CVE-2018-9206.
+**JQShell** 
+
+A weaponized version of CVE-2018-9206.
 
 **Features**
 
