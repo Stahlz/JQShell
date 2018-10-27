@@ -1,3 +1,9 @@
+![alt text](https://i.imgur.com/Gp4QkiN.png)
+
+**JQShell** 
+
+A weaponized version of CVE-2018-9206.
+
 **Disclaimer**
 
 Using this agianst servers you dont control, is illegal in most countries.
@@ -5,15 +11,11 @@ The author claims no responsibility for the actions of those who use this softwa
 This software is intended for educational use only.
 No servers were illegally pwned in the making of this software.
 
-**JQShell** 
-
-A weaponized version of CVE-2018-9206.
-
 **Features**
 
-Single Target
-Multi Target
-Tor
+*Single Target*
+*Multi Target*
+*Tor*
 
 **Prerequisites**
 
@@ -32,13 +34,19 @@ Typically this file is here: /etc/tor/torrc
 
 open this file and change this line:
 
+```shell
 #ControlPort 9051
+```
 
 to
 
+```shell
 ControlPort 9051
+```
 
+```shell
 restart tor service
+```
 
 **Usage**
 
