@@ -166,5 +166,5 @@ elif args.list_init != None:
     else:
       if args.torproxy == True:
         tor_count += 1
-          domain = 'http://{0}'.format(args.single_target)
+      domain = 'http://{0}'.format(domain)
       http(domain)
