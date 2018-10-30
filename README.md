@@ -72,11 +72,11 @@ optional arguments:
 
 Running agianst single target.
 ```shell
-python3 jqshell.py -t localhost/folderwerejqueryis -s /var/www/html/shell.php
+python3 jqshell.py -t http://localhost/folderwerejqueryis -s /var/www/html/shell.php
 ```
 Running agianst single target, with saving output.
 ```shell
-python3 jqshell.py -t localhost/folderwerejqueryis -s /var/www/html/shell.php -o pwned.txt
+python3 jqshell.py -t https://localhost/folderwerejqueryis -s /var/www/html/shell.php -o pwned.txt
 ```
 Running a list, with saving output.
 ```shell
